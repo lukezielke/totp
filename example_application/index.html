@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>TOTP Application Example</title>
+        <meta name="author" content="SitePoint" />
+    </head>
+    <body>
+        <form id="loginForm" action="http://127.0.0.1:5000/check" method="post">
+            <label for="userid">Enter User ID:</label>
+            <input type="text" id="userid" />
+            <br />
+            <label for="code">Enter Code:</label>
+            <input type="text" id="code" />
+            <br />
+            <input type="submit" id="submit " value="Submit" />
+            <br />
+            <div id="return"></div>
+        </form>
+        <script src="application.js"></script>
+    </body>
+</html>
